@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+  <title>箫声锁梦的博客</title>
+  <icon>http://blog.pettyfer.cn/icon.png</icon>
+  <subtitle>身自在，观其妙。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.pettyfer.cn/"/>
+  <updated>2020-04-21T13:12:00.376Z</updated>
+  <id>http://blog.pettyfer.cn/</id>
+  
+  <author>
+    <name>箫声锁梦</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SkyWalking链路追踪系统</title>
+    <link href="http://blog.pettyfer.cn/2020/04/11/devops/skywalking/"/>
+    <id>http://blog.pettyfer.cn/2020/04/11/devops/skywalking/</id>
+    <published>2020-04-11T01:11:37.000Z</published>
+    <updated>2020-04-21T13:12:00.376Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;在微服务开发如火如荼的今天，微服务也引入了一些额外问题。微服务开发&amp;amp;运维过程中会经常调用到其他服务暴露的接口，项目足够大时，内部调用会非常复杂，这种复杂性会导致很难去定位问题，出现问题的时候容易互相推诿进而导致效率低下，所以需要在微服务构建的系统中引入服务调用链路追踪工具，方便开发人员快速定位问题。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="DevOps" scheme="http://blog.pettyfer.cn/categories/DevOps/"/>
+    
+      <category term="APM" scheme="http://blog.pettyfer.cn/categories/DevOps/APM/"/>
+    
+    
+      <category term="云原生基础设施" scheme="http://blog.pettyfer.cn/tags/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/"/>
+    
+      <category term="运维" scheme="http://blog.pettyfer.cn/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+      <category term="链路追踪" scheme="http://blog.pettyfer.cn/tags/%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA/"/>
+    
+      <category term="性能监控" scheme="http://blog.pettyfer.cn/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+    
+      <category term="预警" scheme="http://blog.pettyfer.cn/tags/%E9%A2%84%E8%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nacos 配置MySQL8.0持久化</title>
+    <link href="http://blog.pettyfer.cn/2019/11/30/microservice/nacos-mysql8-0/"/>
+    <id>http://blog.pettyfer.cn/2019/11/30/microservice/nacos-mysql8-0/</id>
+    <published>2019-11-30T03:35:56.000Z</published>
+    <updated>2019-12-03T08:03:59.734Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h1&gt;&lt;p&gt;官网下载的Nacos mysql由于驱动过低只支持5.X版本，使用8.X版本的mysql时无法正常启动&lt;/p&gt;&lt;h1 id=&quot;解决办法&quot;&gt;&lt;a href=&quot;#解决办法&quot; class=&quot;headerlink&quot; title=&quot;解决办法&quot;&gt;&lt;/a&gt;解决办法&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;克隆nacos源码（branch 1.0.0-RC3）&lt;blockquote&gt;&lt;p&gt;master等分支也是同样修改方式&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;&lt;/ul&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git clone https://github.com/alibaba/nacos.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git checkout 1.0.0-RC3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Nacos" scheme="http://blog.pettyfer.cn/categories/Nacos/"/>
+    
+    
+      <category term="微服务" scheme="http://blog.pettyfer.cn/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+      <category term="Spring Cloud Alibaba" scheme="http://blog.pettyfer.cn/tags/Spring-Cloud-Alibaba/"/>
+    
+      <category term="Nacos" scheme="http://blog.pettyfer.cn/tags/Nacos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用正则表达式</title>
+    <link href="http://blog.pettyfer.cn/2019/11/15/web/common-regular-expressions/"/>
+    <id>http://blog.pettyfer.cn/2019/11/15/web/common-regular-expressions/</id>
+    <published>2019-11-15T02:36:37.000Z</published>
+    <updated>2019-11-19T09:36:22.682Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;会不定期更新，如果有问题可文末留言。其中验证类和文字处理类的表达式本质上可以通用，请灵活应对。&lt;/p&gt;&lt;h1 id=&quot;使用方式&quot;&gt;&lt;a href=&quot;#使用方式&quot; class=&quot;headerlink&quot; title=&quot;使用方式&quot;&gt;&lt;/a&gt;使用方式&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;// 验证值是否合法&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;function validate(value) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    if(value !== &amp;quot;&amp;quot; &amp;amp;&amp;amp; !/^\d+(\.\d+)?$/.test(value))&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        console.log(&amp;quot;请输入数字&amp;quot;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;else&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        // do something&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 去掉字符串首尾的空格&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;function process(value) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    if(value)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        return &amp;quot;&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125; else &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        return String(value).replace(/^\s+|\s+$/g, &amp;apos;&amp;apos;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="正则表达式" scheme="http://blog.pettyfer.cn/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+    
+      <category term="前端" scheme="http://blog.pettyfer.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="正则" scheme="http://blog.pettyfer.cn/tags/%E6%AD%A3%E5%88%99/"/>
+    
+      <category term="正则表达式" scheme="http://blog.pettyfer.cn/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>本地Hexo自动部署构建自己的博客（腾讯云）</title>
+    <link href="http://blog.pettyfer.cn/2019/10/15/blog/build-deploy-blog/"/>
+    <id>http://blog.pettyfer.cn/2019/10/15/blog/build-deploy-blog/</id>
+    <published>2019-10-15T08:21:33.000Z</published>
+    <updated>2019-11-17T02:45:41.478Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文旨在使用Hexo开发自己得博客，同时利用git hook机制实现自动化部署。&lt;br&gt;下文涉及到服务器端命令均使用CentOS 7，开发环境为Windows10 1903&lt;/p&gt;&lt;h1 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h1&gt;&lt;h2 id=&quot;安装Git-本地和服务器端&quot;&gt;&lt;a href=&quot;#安装Git-本地和服务器端&quot; class=&quot;headerlink&quot; title=&quot;安装Git 本地和服务器端&quot;&gt;&lt;/a&gt;安装Git &lt;code&gt;本地和服务器端&lt;/code&gt;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Windows：下载并安装 &lt;a href=&quot;https://git-scm.com/downloads&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;git&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Mac：使用 Homebrew ：&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ brew install git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;&lt;li&gt;Linux (Ubuntu, Debian)：&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install git-core&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;&lt;li&gt;Linux (Fedora, Red Hat, CentOS)：&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo yum install git-core&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="自动部署" scheme="http://blog.pettyfer.cn/categories/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="构建博客" scheme="http://blog.pettyfer.cn/categories/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Deploy" scheme="http://blog.pettyfer.cn/tags/Deploy/"/>
+    
+      <category term="自动部署" scheme="http://blog.pettyfer.cn/tags/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="Git Hook" scheme="http://blog.pettyfer.cn/tags/Git-Hook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ClamAV反病毒软件安装与使用</title>
+    <link href="http://blog.pettyfer.cn/2019/08/08/linux/clamav-install/"/>
+    <id>http://blog.pettyfer.cn/2019/08/08/linux/clamav-install/</id>
+    <published>2019-08-08T01:57:12.000Z</published>
+    <updated>2019-11-17T02:47:12.224Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;Linux服务器常用系统，以安全著称，不过随着市场占有量的增大，Linux病毒也存在病毒。而对于病毒，管理员手动分析进行查杀，除了手动分析查杀病毒外，还可以借助杀毒软件进行查杀，如同Windows都有杀毒软件一样，Linux系统发展至今也有不少优秀的反病毒软件，这里就不一一列举了。本文主要使用开源的&lt;strong&gt;ClamAV&lt;/strong&gt;反病毒软件。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="系统安全" scheme="http://blog.pettyfer.cn/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    
+    
+      <category term="Security" scheme="http://blog.pettyfer.cn/tags/Security/"/>
+    
+      <category term="ClamAV" scheme="http://blog.pettyfer.cn/tags/ClamAV/"/>
+    
+      <category term="反病毒" scheme="http://blog.pettyfer.cn/tags/%E5%8F%8D%E7%97%85%E6%AF%92/"/>
+    
+      <category term="系统安全" scheme="http://blog.pettyfer.cn/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM 虚拟机内存模型</title>
+    <link href="http://blog.pettyfer.cn/2019/08/07/java/jvm/jvm-memory-model/"/>
+    <id>http://blog.pettyfer.cn/2019/08/07/java/jvm/jvm-memory-model/</id>
+    <published>2019-08-07T05:43:11.000Z</published>
+    <updated>2020-02-22T02:37:17.624Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文中部分内容引用至《深入理解Java虚拟机：JVM高级特性与最佳实践（第2版）》第12章，如果有兴趣可自行深入阅读，文末放有书籍PDF版本连接。&lt;/p&gt;&lt;h1 id=&quot;一、物理机中的并发&quot;&gt;&lt;a href=&quot;#一、物理机中的并发&quot; class=&quot;headerlink&quot; title=&quot;一、物理机中的并发&quot;&gt;&lt;/a&gt;一、物理机中的并发&lt;/h1&gt;&lt;blockquote&gt;&lt;p&gt;物理机遇到的并发问题其实与虚拟机中的情况有很多相似之处，所以物理机对并发的处理方案对于虚拟机的实现也有比较大的参考意义&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;“充分的利用计算机效能”和“让计算机并发运行多个任务”之间的关系，看上去是紧密相连的，但是实际上并没有想象中的那么简单，这其中有一个重要的原因在于计算机的大多数任务不能仅仅只依靠处理器去完成，处理器至少需要和内存打交道，比如读取数据、保存结果等，而这一过程中的I/O是无法避免的。由于计算机的存储设备与处理器的运算速度有几个数量级的差距，所以现代计算机系统都不得不加入一层读写速度尽可能接近处理器运算速度的高速缓存（Cache）来作为内存与处理器之间的缓冲：将运算需要使用到的数据复制到缓存中，让运算能快速进行，当运算结束后再从缓存同步回内存之中，这样处理器就无须等待缓慢的内存读写了。&lt;br&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;但是这样这种情况也带来了另一个问题，“缓存一致性（Cache Coherence）”。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://blog.pettyfer.cn/categories/Java/"/>
+    
+      <category term="JVM" scheme="http://blog.pettyfer.cn/categories/Java/JVM/"/>
+    
+    
+      <category term="JVM" scheme="http://blog.pettyfer.cn/tags/JVM/"/>
+    
+      <category term="内存模型" scheme="http://blog.pettyfer.cn/tags/%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL会话控制限制登录次数</title>
+    <link href="http://blog.pettyfer.cn/2019/08/06/mysql/mysql-session-security/"/>
+    <id>http://blog.pettyfer.cn/2019/08/06/mysql/mysql-session-security/</id>
+    <published>2019-08-06T09:57:12.000Z</published>
+    <updated>2019-08-08T01:47:22.929Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;一般我们开发环境的MySQL是没有配置登录保护的，但仅限于开发环境，正式环境是不允许无限制登录，存在很大的风险。&lt;/p&gt;&lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;MySQL 5.7 以后提供了Connection-Control插件用来控制客户端在登录操作连续失败一定次数后的响应的延迟。该插件可有效的防止客户端暴力登录的风险(攻击)。该插件包含以下两个组件：&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="系统安全" scheme="http://blog.pettyfer.cn/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    
+    
+      <category term="Security" scheme="http://blog.pettyfer.cn/tags/Security/"/>
+    
+      <category term="MySQL" scheme="http://blog.pettyfer.cn/tags/MySQL/"/>
+    
+  </entry>
+  
+</feed>
