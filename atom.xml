@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>箫声锁梦的博客</title>
+  <icon>http://blog.pettyfer.cn/icon.png</icon>
+  <subtitle>身自在，观其妙。</subtitle>
+  <link href="http://blog.pettyfer.cn/atom.xml" rel="self"/>
+  
+  <link href="http://blog.pettyfer.cn/"/>
+  <updated>2022-07-04T07:14:11.051Z</updated>
+  <id>http://blog.pettyfer.cn/</id>
+  
+  <author>
+    <name>箫声锁梦</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kubernetes 证书更新</title>
+    <link href="http://blog.pettyfer.cn/2021/07/19/devops/kubernetes/ca-certificate-update/"/>
+    <id>http://blog.pettyfer.cn/2021/07/19/devops/kubernetes/ca-certificate-update/</id>
+    <published>2021-07-19T01:38:21.000Z</published>
+    <updated>2022-07-04T07:14:11.051Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Cloud Native" scheme="http://blog.pettyfer.cn/categories/Cloud-Native/"/>
+    
+    <category term="Docker" scheme="http://blog.pettyfer.cn/categories/Cloud-Native/Docker/"/>
+    
+    
+    <category term="云原生基础设施" scheme="http://blog.pettyfer.cn/tags/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/"/>
+    
+    <category term="运维" scheme="http://blog.pettyfer.cn/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kubernetes网络重置</title>
+    <link href="http://blog.pettyfer.cn/2020/06/09/devops/kubernetes/network-reset/"/>
+    <id>http://blog.pettyfer.cn/2020/06/09/devops/kubernetes/network-reset/</id>
+    <published>2020-06-09T07:39:37.000Z</published>
+    <updated>2022-03-07T08:33:30.875Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Cloud Native" scheme="http://blog.pettyfer.cn/categories/Cloud-Native/"/>
+    
+    <category term="Docker" scheme="http://blog.pettyfer.cn/categories/Cloud-Native/Docker/"/>
+    
+    
+    <category term="云原生基础设施" scheme="http://blog.pettyfer.cn/tags/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/"/>
+    
+    <category term="运维" scheme="http://blog.pettyfer.cn/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+    <category term="异常解决" scheme="http://blog.pettyfer.cn/tags/%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kubernetes 集群部署（CentOS 7）</title>
+    <link href="http://blog.pettyfer.cn/2020/06/08/devops/kubernetes/cluster-deploy-centos7/"/>
+    <id>http://blog.pettyfer.cn/2020/06/08/devops/kubernetes/cluster-deploy-centos7/</id>
+    <published>2020-06-08T07:39:37.000Z</published>
+    <updated>2022-08-23T07:19:52.212Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Cloud Native" scheme="http://blog.pettyfer.cn/categories/Cloud-Native/"/>
+    
+    <category term="Docker" scheme="http://blog.pettyfer.cn/categories/Cloud-Native/Docker/"/>
+    
+    
+    <category term="云原生基础设施" scheme="http://blog.pettyfer.cn/tags/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/"/>
+    
+    <category term="运维" scheme="http://blog.pettyfer.cn/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始学习React（一）-----搭建开发环境</title>
+    <link href="http://blog.pettyfer.cn/2020/04/30/web/react/react-study-1/"/>
+    <id>http://blog.pettyfer.cn/2020/04/30/web/react/react-study-1/</id>
+    <published>2020-04-30T10:10:45.000Z</published>
+    <updated>2022-03-07T08:33:30.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;环境搭建&quot;&gt;&lt;a href=&quot;#环境搭建&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="http://blog.pettyfer.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="前端" scheme="http://blog.pettyfer.cn/categories/%E5%AD%A6%E4%B9%A0/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="React" scheme="http://blog.pettyfer.cn/categories/%E5%AD%A6%E4%B9%A0/%E5%89%8D%E7%AB%AF/React/"/>
+    
+    
+    <category term="React" scheme="http://blog.pettyfer.cn/tags/React/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始学习React-----介绍</title>
+    <link href="http://blog.pettyfer.cn/2020/04/30/web/react/react-study-0/"/>
+    <id>http://blog.pettyfer.cn/2020/04/30/web/react/react-study-0/</id>
+    <published>2020-04-30T08:00:20.000Z</published>
+    <updated>2022-03-07T08:33:30.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;React简介&quot;&gt;&lt;a href=&quot;#React简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="http://blog.pettyfer.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="前端" scheme="http://blog.pettyfer.cn/categories/%E5%AD%A6%E4%B9%A0/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="React" scheme="http://blog.pettyfer.cn/categories/%E5%AD%A6%E4%B9%A0/%E5%89%8D%E7%AB%AF/React/"/>
+    
+    
+    <category term="React" scheme="http://blog.pettyfer.cn/tags/React/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring boot devtools导致instanceof判断错误</title>
+    <link href="http://blog.pettyfer.cn/2020/04/28/java/spring-boot/spring-boot-devtools-instanceof-bug/"/>
+    <id>http://blog.pettyfer.cn/2020/04/28/java/spring-boot/spring-boot-devtools-instanceof-bug/</id>
+    <published>2020-04-28T11:12:11.000Z</published>
+    <updated>2022-03-07T08:33:30.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="异常解决" scheme="http://blog.pettyfer.cn/categories/%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3/"/>
+    
+    
+    <category term="Spring Boot" scheme="http://blog.pettyfer.cn/tags/Spring-Boot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SkyWalking链路追踪系统</title>
+    <link href="http://blog.pettyfer.cn/2020/04/11/devops/skywalking/"/>
+    <id>http://blog.pettyfer.cn/2020/04/11/devops/skywalking/</id>
+    <published>2020-04-11T01:11:37.000Z</published>
+    <updated>2022-03-07T08:33:30.875Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="DevOps" scheme="http://blog.pettyfer.cn/categories/DevOps/"/>
+    
+    <category term="APM" scheme="http://blog.pettyfer.cn/categories/DevOps/APM/"/>
+    
+    
+    <category term="云原生基础设施" scheme="http://blog.pettyfer.cn/tags/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/"/>
+    
+    <category term="运维" scheme="http://blog.pettyfer.cn/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+    <category term="链路追踪" scheme="http://blog.pettyfer.cn/tags/%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA/"/>
+    
+    <category term="性能监控" scheme="http://blog.pettyfer.cn/tags/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+    
+    <category term="预警" scheme="http://blog.pettyfer.cn/tags/%E9%A2%84%E8%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nacos 配置MySQL8.0持久化</title>
+    <link href="http://blog.pettyfer.cn/2019/11/30/microservice/nacos-mysql8-0/"/>
+    <id>http://blog.pettyfer.cn/2019/11/30/microservice/nacos-mysql8-0/</id>
+    <published>2019-11-30T03:35:56.000Z</published>
+    <updated>2022-03-07T08:33:30.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Nacos" scheme="http://blog.pettyfer.cn/categories/Nacos/"/>
+    
+    
+    <category term="微服务" scheme="http://blog.pettyfer.cn/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+    <category term="Spring Cloud Alibaba" scheme="http://blog.pettyfer.cn/tags/Spring-Cloud-Alibaba/"/>
+    
+    <category term="Nacos" scheme="http://blog.pettyfer.cn/tags/Nacos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用正则表达式</title>
+    <link href="http://blog.pettyfer.cn/2019/11/15/web/other/common-regular-expressions/"/>
+    <id>http://blog.pettyfer.cn/2019/11/15/web/other/common-regular-expressions/</id>
+    <published>2019-11-15T02:36:37.000Z</published>
+    <updated>2022-03-07T08:33:30.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="正则表达式" scheme="http://blog.pettyfer.cn/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+    
+    <category term="前端" scheme="http://blog.pettyfer.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="正则" scheme="http://blog.pettyfer.cn/tags/%E6%AD%A3%E5%88%99/"/>
+    
+    <category term="正则表达式" scheme="http://blog.pettyfer.cn/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>本地Hexo自动部署构建自己的博客（腾讯云）</title>
+    <link href="http://blog.pettyfer.cn/2019/10/15/blog/build-deploy-blog/"/>
+    <id>http://blog.pettyfer.cn/2019/10/15/blog/build-deploy-blog/</id>
+    <published>2019-10-15T08:21:33.000Z</published>
+    <updated>2022-03-07T08:33:30.874Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="自动部署" scheme="http://blog.pettyfer.cn/categories/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="构建博客" scheme="http://blog.pettyfer.cn/categories/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Deploy" scheme="http://blog.pettyfer.cn/tags/Deploy/"/>
+    
+    <category term="自动部署" scheme="http://blog.pettyfer.cn/tags/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="Git Hook" scheme="http://blog.pettyfer.cn/tags/Git-Hook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ClamAV反病毒软件安装与使用</title>
+    <link href="http://blog.pettyfer.cn/2019/08/08/linux/clamav-install/"/>
+    <id>http://blog.pettyfer.cn/2019/08/08/linux/clamav-install/</id>
+    <published>2019-08-08T01:57:12.000Z</published>
+    <updated>2022-03-07T08:33:30.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="系统安全" scheme="http://blog.pettyfer.cn/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="Security" scheme="http://blog.pettyfer.cn/tags/Security/"/>
+    
+    <category term="ClamAV" scheme="http://blog.pettyfer.cn/tags/ClamAV/"/>
+    
+    <category term="反病毒" scheme="http://blog.pettyfer.cn/tags/%E5%8F%8D%E7%97%85%E6%AF%92/"/>
+    
+    <category term="系统安全" scheme="http://blog.pettyfer.cn/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM 虚拟机内存模型</title>
+    <link href="http://blog.pettyfer.cn/2019/08/07/java/jvm/jvm-memory-model/"/>
+    <id>http://blog.pettyfer.cn/2019/08/07/java/jvm/jvm-memory-model/</id>
+    <published>2019-08-07T05:43:11.000Z</published>
+    <updated>2022-03-07T08:33:30.875Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://blog.pettyfer.cn/categories/Java/"/>
+    
+    <category term="JVM" scheme="http://blog.pettyfer.cn/categories/Java/JVM/"/>
+    
+    
+    <category term="JVM" scheme="http://blog.pettyfer.cn/tags/JVM/"/>
+    
+    <category term="内存模型" scheme="http://blog.pettyfer.cn/tags/%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL会话控制限制登录次数</title>
+    <link href="http://blog.pettyfer.cn/2019/08/06/mysql/mysql-session-security/"/>
+    <id>http://blog.pettyfer.cn/2019/08/06/mysql/mysql-session-security/</id>
+    <published>2019-08-06T09:57:12.000Z</published>
+    <updated>2022-03-07T08:33:30.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="系统安全" scheme="http://blog.pettyfer.cn/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="Security" scheme="http://blog.pettyfer.cn/tags/Security/"/>
+    
+    <category term="MySQL" scheme="http://blog.pettyfer.cn/tags/MySQL/"/>
+    
+  </entry>
+  
+</feed>
